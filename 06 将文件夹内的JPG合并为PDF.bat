@@ -11,7 +11,6 @@ if not exist "%input_dir%" (
     exit /b 1
 )
 
-
 magick convert "%1\*.jpg" -compress jpeg -quality 80 %output_file%
 
 echo 任务完成！
