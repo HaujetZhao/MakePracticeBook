@@ -4,8 +4,7 @@
 REM 宽度、高度，单位为 mm
 REM 在这里设定背景图大小、DPI
 REM 标准的 A4 大小是 210mm * 297mm
-REM 标准的 A5 大小是 148mm * 210mm
-REM 标准的 A6 大小是 105mm * 148mm
+REM 标准的 A5 大小是 105mm * 148mm
 
 set width=148
 set height=105

@@ -14,8 +14,7 @@ if "!attr:~0,1!" neq "d" (
 set "BACKGROUND=背景.png"
 set FOREGROUND=
 
-REM 当图片叠加时，-gravity 用于控制对齐方向，north 代表顶对齐
-REM -geometry +0+100 表示水平不要偏移，垂直方向往下偏移100个像素
+REM 
 set "composite_options=-geometry +0+100 -gravity north"
 
 for /r %1 %%i in (*.jpg) do (

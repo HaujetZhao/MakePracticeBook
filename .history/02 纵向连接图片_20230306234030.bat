@@ -3,9 +3,7 @@ setlocal EnableDelayedExpansion
 
 REM 用法：输入多张图片，纵向拼接成一张图片
 REM 用途：有一些题会分成两半，写在两页上，如第八页末端和第九页顶端
-REM       一个题有两个切片，就可以用这个脚本将两个切片拼接起来
-
-
+REM       一个题就会有两个切片
 set first_file=%1
 
 set cmd=magick 
