@@ -1,3 +1,7 @@
 *.png
 *.exe
+*.pdf
+*.jpg
 .history
+images*
+
