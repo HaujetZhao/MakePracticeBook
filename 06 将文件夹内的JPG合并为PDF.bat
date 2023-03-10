@@ -1,6 +1,11 @@
 @echo off
 setlocal EnableDelayedExpansion
 
+:: 获取当前脚本所在目录
+:: 添加目录到path环境变量中
+set script_dir=%~dp0
+set path=%path%;%script_dir%
+
 set input_dir=%~dpn1
 set output_file=%~n1.pdf
 

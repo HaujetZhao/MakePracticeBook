@@ -5,6 +5,11 @@ REM 用法：输入多张图片，纵向拼接成一张图片
 REM 用途：有一些题会分成两半，写在两页上，如第八页末端和第九页顶端
 REM       一个题有两个切片，就可以用这个脚本将两个切片拼接起来
 
+:: 获取当前脚本所在目录
+:: 添加目录到path环境变量中
+set script_dir=%~dp0
+set path=%path%;%script_dir%
+
 set first_file=%~dpnx1
 
 set cmd=magick 
