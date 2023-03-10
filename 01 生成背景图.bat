@@ -1,8 +1,5 @@
 @echo off
 
-
-
-
 REM 宽度、高度，单位为 mm
 REM 在这里设定背景图大小、DPI
 REM 标准的 A4 大小是 210mm * 297mm
